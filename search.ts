@@ -20,32 +20,6 @@ export type PostFilter = {
   createdAtStart?: Date
   createdAtEnd?: Date
 }
- // nó tree
-// class TreeNode {
-//   post: Post
-//   left: TreeNode | null = null
-//   rigth: TreeNode | null = null
-
-//   constructor(post:Post) {
-//     this.post = post
-//   }
-// }
-
-// class PostTree{
-//   root: TreeNode | null = null //raiz nula
-// }
-
-// Insert(post: Post) {
-//   const newNode = new TreeNode(post) {
-//     if (this.root == null) {
-//       this.root = newNode
-//     }
-//     else {
-//       this.root = newNode(this.root,newNode)
-//     }
-//   }
-// }
-
 
 
 export async function search(filter: PostFilter): Promise<Post[]> {
