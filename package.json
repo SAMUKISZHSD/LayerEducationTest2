@@ -1,0 +1,22 @@
+{
+  "name": "desafio-tecnico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "tsx data/generate.ts",
+    "start": "tsx index.js",
+    "test": "tsx test.ts --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/lodash": "^4.17.7",
+    "tsx": "^4.19.1"
+  }
+}
